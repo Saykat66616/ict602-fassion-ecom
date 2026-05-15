@@ -1,0 +1,6 @@
+
+go to the main code directory and type
+java Main.java
+
+to run the test code, type
+java Test.java

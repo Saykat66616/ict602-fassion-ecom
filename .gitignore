@@ -1,0 +1,50 @@
+# Java build output
+*.class
+*.jar
+*.war
+*.ear
+out/
+build/
+target/
+bin/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# IDE/editor local files
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment, secrets, and account-specific credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.jks
+id_rsa*
+id_ed25519*
+*.credentials
+credentials.*
+
+# Local Git helper files that should never be committed
+.git-credentials
+.gitconfig
+
+# Keep these files out of the first account's commit.
+# Remove these lines before committing them from the second account.
+Test.java
+src/com/fashionstore/FashionStoreTest.java
